@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <plugin>
+        <name>A客户插件</name>
+        <jar>D:\asus\Documents\IdeaProjects\pluginDemo\pluginA\target\pluginA-1.0-SNAPSHOT.jar</jar>
+        <class>org.bing.plugin.APlugin</class>
+    </plugin>
+
+</plugins>

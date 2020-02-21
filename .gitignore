@@ -1,0 +1,3 @@
+# Project exclude paths
+/pluginA/target/
+/pluginMain/target/
