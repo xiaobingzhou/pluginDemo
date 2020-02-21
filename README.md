@@ -9,7 +9,7 @@ A插件项目
 
 ### 使用方式
 ```
-1、将pluginMain使用maven安装到本地库：mvn install
+1、使用maven将pluginMain安装到本地库：mvn install
 （原因是pluginA会依赖pluginMain项目中org.bing.plugin.PluginService接口；可以考虑将这个接口单独做为一个jar包，这样pluginA就不用依赖pluginMain项目了）
 2、打包pluginA项目：mvn package
 （在plugin.xml中需要配置jar包文件路径）
